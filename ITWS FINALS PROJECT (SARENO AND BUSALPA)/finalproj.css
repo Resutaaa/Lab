@@ -1,0 +1,498 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;  
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+li, a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+button
+{
+  background-color:black;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+}
+
+/* This is for navigation bar */
+.navigation
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:firebrick;
+}
+
+.links
+{
+    list-style: none;
+}
+
+.links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a.active
+{
+    color: black;
+    transition: .7s;
+    text-decoration: double;
+}
+
+.links li a:hover
+{
+    color:orange;
+}
+
+/* This is for the logo */
+.logo
+{
+    position:absolute;
+    height: auto;
+    left: 80px;
+    width: 50px;
+}
+
+.infotech
+{
+    display: block;
+    margin-left: 100px;
+    margin-top: 65px;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    border-width: 8px;
+    border-style: ridge;
+    border-color: firebrick;
+    width: 560px;
+    padding: .1em;
+}
+/* This is for the title of contents */
+.h1class
+{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    text-shadow: 2px 2px;
+    margin-left: 700px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+h3
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    margin-left: 700px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* This is for the next page */
+.nextpage
+{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    display:block;
+    text-align:center;
+    
+}
+
+/* This is for the title of about section */
+.about
+{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    text-shadow: 1px 1px;
+    margin-top: 100px;
+    text-align: center;
+    border-style: dashed;
+    width: 1000px;
+    padding: 50px;
+    border-color: firebrick;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.infotech1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    width: 350px;
+    height: 350px;
+    border-width: 8px;
+    border-style: ridge;
+    border-color: firebrick;
+    padding: .1em;
+}
+
+/* This is for the description of the page */
+.description
+{
+    display: block;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 85px;
+    
+}
+
+/* This is for borders */
+.border
+{
+    width: 1000px;
+    height: 175px;
+    border-style:groove;
+    padding: 50px;
+    border-color: firebrick;
+    box-sizing: border-box;
+}
+
+table, th, td
+{
+    border: 1px solid red;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 1px;
+    border-spacing: 4px;
+}
+
+/* This is for products */
+.card 
+{
+    box-shadow:firebrick;
+    max-width: 300px;
+    margin-top: 85px;
+    margin-left: 65px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.card button 
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: firebrick;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover 
+{
+    opacity: 0.7;
+}
+
+.h1product
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: firebrick;
+    width: 200px;
+    padding: .1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productpic
+{
+    width: 67%
+}
+
+.card1 
+{
+    box-shadow:firebrick;
+    max-width: 300px;
+    margin-top: 85px;
+    margin-left: 65px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+  
+.card1 button 
+{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: firebrick;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card1 button:hover 
+{
+    opacity: 0.7;
+}
+
+.h1product1
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: firebrick;
+    width: 215px;
+    padding: .1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1product2
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: firebrick;
+    width: 240px;
+    padding: .1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This is for tables of date and time */
+.table1
+{
+    border: 1px solid red;
+    color: white;
+    margin-left: 500px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 1px;
+    border-spacing: 4px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 85px
+}
+
+fieldset
+{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px firebrick;
+    border-radius: 6px;
+    min-width: 200px;
+    color: white;
+}
+
+legend
+{
+    font-size: 30px;
+    padding: 0 .25em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+label
+{
+    display: block;
+    margin-top: 1em;
+}
+
+label:first-of-type
+{
+    margin-top: 0;
+}
+
+input 
+{
+    padding: .5em;
+    border: solid 1px firebrick;
+}
+
+input[type = "text"], input[type = "email"]
+{
+    width: 15em;
+}
+
+textarea
+{
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px firebrick;
+}
+
+input[type = "button"]
+{
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: firebrick;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+.next
+{
+    background-color: firebrick;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-left: 67%;
+    text-align: center;
+    margin-top: 95px;
+   
+}
+
+.next:hover
+{
+    color: orange;
+}
+
+.next1
+{
+    background-color: firebrick;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-left: 50%;
+    margin-top: 75px;
+    text-align: center;
+   
+}
+
+.next1:hover
+{
+    color: orange;
+}
+
+
+/* For social media and other accounts */
+.fa
+{
+    padding: 40%;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-envelope
+{
+    background: firebrick;
+}
+
+.fa-phone
+{
+    background: firebrick;
+}
+
+
+.icon
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.icon ul li
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.number
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+video
+{
+    margin-top: 155px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    text-align: center;
+    padding: 3px;
+    background-color: firebrick;
+    color: white;
+    margin-top: 70px;
+}
